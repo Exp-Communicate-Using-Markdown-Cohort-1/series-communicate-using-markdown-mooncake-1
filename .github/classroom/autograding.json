@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Step 1 Add Headers",
+      "setup": "sleep 20",
+      "run": "[ $(cat .github/script/STEP) -ge 1 ] || [ $(cat .github/script/STEP) = X ]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Step 2 Add an image",
+      "setup": "sleep 20",
+      "run": "[ $(cat .github/script/STEP) -ge 2 ] || [ $(cat .github/script/STEP) = X ]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Step 3 Add a code example",
+      "setup": "sleep 20",
+      "run": "[ $(cat .github/script/STEP) -ge 3 ] || [ $(cat .github/script/STEP) = X ]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Step 4 Make a task list",
+      "setup": "sleep 20",
+      "run": "[ $(cat .github/script/STEP) -ge 4 ] || [ $(cat .github/script/STEP) = X ]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Step 5 Merge your pull request",
+      "setup": "sleep 20",
+      "run": "[ $(cat .github/script/STEP) -ge 5 ] || [ $(cat .github/script/STEP) = X ]",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
